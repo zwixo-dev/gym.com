@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide For Junior's</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 770px;
+            border: 1px solid rgba(0, 0, 0, 0.144);
+            margin: 0em auto ;
+        }
+        table{
+            width: 100%;
+            border-spacing: 0px;
+        }
+        .header{
+            background-color: #11111141;
+         /*color: #EAAC8B;*/
+            color: #0c0c0c;       
+         }
+         h1{
+            margin: 0.5em 0em 0.2em 0em;
+            font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+         }
+         span{
+            display: block;
+            margin-bottom: 0.6em;
+            font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #0c0c0cd8;
+         }
+         .image-1, .image-2, .image-3{
+            max-width: 230px;
+            float:left;
+            margin: 2em 1em 0em 1.5em;
+         }
+         .title-3{
+            margin-top: 3em;
+            margin-bottom: 1.4em;
+            font-size: 18px;
+         }
+         .title-1 ,.title-2{
+            margin-top: 3.7em;
+            margin-bottom: 1.4em;
+            font-size: 18px;
+         }
+         .title-1 , .title-2 , .title-3 {
+            font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+         }
+         p{
+            word-spacing: 0.3em;
+            line-height: 1.4em;
+            font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+         }
+         /*style for mobiles*/
+         @media (max-width: 600px) {
+            body{
+                max-width: 100%;
+            }
+            .image-1, .image-2, .image-3 {
+                float: none;
+                max-width: 90%;
+            }
+            .title-1 , .title-2 , .title-3 {
+                font-size: 16px;
+                margin: 1em 0em 1em 1em;
+            }
+            p{
+                text-align: center;
+            word-spacing: 0.1em;
+            }
+            h1{
+                font-size: 18px;
+                font-weight: 700;
+            }
+            span{
+                font-size: 14px;
+            }
+         }
+         /*style for ipads*/
+         @media (min-width: 600px) and (max-width: 1024px){
+            body{
+                width: 100%;
+                margin-top: 0.4em;
+            }
+            h1{
+                font-size: 35px;
+            }
+            .title-1 , .title-2 , .title-3 {
+                font-size: 25px;
+            }
+         }
+    </style>
+</head>
+<body>
+    <table>
+        <!--header-->
+        <tr class="header">
+            <th>
+                <h1>Guide For Junior Software Engineers</h1>
+                <span>Tips on how to become organised & productive</span>
+            </th>
+        </tr>
+             <!--main-->
+             <tr>
+                <td>
+              <img src="images/freelancer.jpg" alt="" class="image-1">
+              <h2 class="title-1">Build a Strong Portfolio: </h2>
+              <p> Showcase your best projects on a personal website or platforms like GitHub. Highlight skills and technologies that are in demand.</p>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <img src="images/timing.avif" alt="" class="image-2">
+                    <h2 class="title-2">Set Clear Boundaries:</h2>
+                    <p> Define your working hours, communication preferences, and project scope upfront to avoid misunderstandings and burnout.</p>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <img src="images/freelancer-learn.avif" alt="" class="image-3">
+                    <h2 class="title-3">Invest in Continuous Learning:</h2>
+                    <p> Keep up with new tools, frameworks, and industry trends to stay competitive and offer more value to your clients.</p>
+                </td>
+             </tr>
+    </table>
+</body>
+</html>
